@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+header #nav-header{
+    height: 90px;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+#nav-header #baixar{
+    background: #9000e3;
+    padding: 8px 40px ;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+#head-fone img{
+    width: 400px;
+}
+
+#conteiner-principal{
+    background: url(/musicPlay.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#conteiner-principal #titulo{
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+#conteiner-principal #titulo b{
+    color: #9000e3;
+}
+
+#container-list{
+    background: #D1C4E9;
+}
+
+#container-list #item-list{
+    
+    font-size: 17px;
+}
+
+#container-list #item-list img{
+    max-width: 150px !important;
+}
+
+#container-list #item-list a{
+    background: #835EC6;
+    padding: 12px 50px;
+    border-radius: 50px;
+}
+
+#conteiner-grup{
+    background-color: #9000e3;
+}
+
+#conteiner-grup 
+#dev-grup div{
+    width: 170px;
+    height: 170px;  
+    clip-path: circle();
+    background: #ffffff;
+
+}
+
+#dev-grup img{
+    width: 170px;
+    height: 170px;  
+    clip-path: circle();
+}
+
+#container-rodape{
+    background-color: #D1C4E9;
+}
+
+@media(max-width:995px){
+    #navbarTogglerDemo03{
+        background: #2b2b2b;
+        padding: 10px;
+        border-radius: 13px;
+        color: white;
+    }
+
+    #navbarTogglerDemo03 ul li a{
+        color: white;
+    }
+}
